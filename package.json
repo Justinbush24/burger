@@ -1,0 +1,23 @@
+{
+  "name": "homework-13",
+  "version": "1.0.0",
+  "description": "A burger eating app with a history of previously eaten burgers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justinbush24/burger.git"
+  },
+  "author": "Justin Bush",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Justinbush24/burger/issues"
+  },
+  "homepage": "https://github.com/Justinbush24/burger#readme",
+  "dependencies": {
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}

@@ -1,0 +1,23 @@
+h2 {
+    text-align: center;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+button {
+    padding: 20px;
+    margin: 20px;
+}
+
+body {
+    background-color: #628E3C;
+}
+
+form {
+    text-align: center;
+}

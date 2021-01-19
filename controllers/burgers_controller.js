@@ -1,4 +1,4 @@
-const app = express();
+var express = require("express")
 var router = express.Router();
 var burger = require("../models/burger");
 
@@ -10,6 +10,7 @@ router.get("/", (req, res) => {
         };
         console.log(hbsObject);
         res.render("index", hbsObject);
+        console.log(req)
     });
 });
 

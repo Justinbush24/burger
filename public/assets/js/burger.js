@@ -24,12 +24,16 @@ $(function() {
             burger_name: $("#newBurger").val().trim()
         };
 
+
+        console.log(newBurger)
+
+
         $.ajax("/api/burger", {
-            type: "POST",
+            type: "post",
             data: newBurger
         }).then(function() {
             console.log("New Burger Created");
-            location.reload();
+            // location.reload();
         })
     })
 

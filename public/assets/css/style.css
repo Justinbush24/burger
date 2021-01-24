@@ -21,3 +21,8 @@ body {
 form {
     text-align: center;
 }
+
+.burgerImg {
+    height: 200px;
+    width: 50%;
+}
